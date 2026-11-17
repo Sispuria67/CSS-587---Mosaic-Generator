@@ -1,0 +1,6 @@
+import cv2
+
+# Testing input image 
+img = cv2.imread("image1.png")
+
+cv2.imshow("image", img)
