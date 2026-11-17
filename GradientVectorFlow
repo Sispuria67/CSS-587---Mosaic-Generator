@@ -1,6 +1,8 @@
 import cv2
 
 # Testing input image 
-img = cv2.imread("image1.png")
+img = cv2.imread("Assets/Images/lena.jpg")
+
 
 cv2.imshow("image", img)
+cv2.waitKey(0)
